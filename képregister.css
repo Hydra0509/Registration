@@ -1,0 +1,84 @@
+body {
+	background: no-repeat center center fixed #D3DAD9;
+	width: 94%;
+	height: 100%;
+	background-size: cover;
+	margin: auto ;
+}
+
+h1{
+	font-family:fantasy;
+	font-size: 2.5em;
+	border-bottom: 5px solid black;
+	border-right: 5px solid red;
+	width: 300px;
+	text-align: center;
+	box-shadow: 5px 5px 5px 5px black;
+	position: relative;
+	right: -50px;
+
+}
+.navbar{
+	display: flex;
+	list-style: none;
+	padding: 10px;
+	margin:-10px;
+}
+
+.navigationbar {
+	font-family: fantasy;
+	margin:10px;
+	background-color: #D3DAD9;
+	font-size: 2em;
+	border-bottom: 5px solid black;
+	border-right: 5px solid red;
+	box-shadow: 5px 5px 5px 5px black
+}
+
+li{
+	padding: 15px;
+}
+
+.kapcsolat{
+	margin-left: auto;
+}
+
+a{
+	color: #c70039;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px black;
+	letter-spacing: 0.2rem;
+}
+
+
+#a1:hover{
+	font-size:2.2rem;
+}
+
+form{
+	margin-left: 43%;
+	align-items: center;
+	display:inline-grid;
+	justify-content: center;
+	border:5px solid black;
+	border-right: 5px solid red;
+	box-shadow: 5px 5px 5px 5px black;
+	padding: 30px;
+}
+
+
+.example2 {
+	position: relative;
+	left:1px;
+	top: 80px;
+}
+
+p{
+	font-size: 1.5em;
+	font-family: fantasy;
+}
+
+.gombok{
+	border-radius: 30px;
+	font-size: 1.01em; 
+}
